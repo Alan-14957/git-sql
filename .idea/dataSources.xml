@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="龙旗主机" uuid="a2f95392-67f3-423f-badd-808cb0edecf3">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://172.31.12.76:5432/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="EBS系统" uuid="ce20f876-4304-49f7-bd74-3cacdd0493de">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//172.16.90.13:1521/PROD</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <vm-env>
+        <property name="ORACLE_HOME" value="path" />
+      </vm-env>
+    </data-source>
+    <data-source source="LOCAL" name="BI系统" uuid="24c52cca-0cf1-4f70-88d8-07da31638432">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//172.16.90.163:1521/congnos</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="零跑合并系统TAG" uuid="c18e35f9-a5ac-4c5d-a129-50311f86c948">
+      <driver-ref>hana</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.sap.db.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:sap://10.192.0.1/?instanceNumber=00&amp;databaseName=TAG</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="S4Q" uuid="935dce79-df25-4733-9ee9-31745df89b97">
+      <driver-ref>hana</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.sap.db.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:sap://10.192.0.1/?instanceNumber=00&amp;databaseName=S4Q</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="零跑系统新地址" uuid="f9c700d3-f544-4946-aefb-af634ced6999">
+      <driver-ref>hana</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.sap.db.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:sap://10.195.145.12/?instanceNumber=01&amp;databaseName=TAG</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="安克" uuid="78bd1685-b576-41d9-8b92-e0cf6ef7a307">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://172.16.18.130:5432/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="零跑生产环境" uuid="53143a4e-cb59-4efd-a2a5-d8d929224aa3">
+      <driver-ref>hana</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.sap.db.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:sap://10.195.145.11/?instanceNumber=00&amp;databaseName=TAG</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
